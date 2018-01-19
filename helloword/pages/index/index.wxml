@@ -7,7 +7,11 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+   <!-- open-type='redirect'  新打开一个窗口 -->
+  <navigator url='../basic/basic' open-type='redirect' >view basic 示例</navigator>
+  <navigator url='../icon/icon'><button type='primary'>icon 示例</button> </navigator>
+  <navigator url='../button/button'><button type='primary'>button 示例</button> </navigator>
+  <navigator url='../input/input'><button type='primary'>input 示例</button> </navigator>
+  <navigator url='../binding/binding'><button type='primary'>binding 示例</button> </navigator>
+  <navigator url='../audio/audio'><button type='primary'>audio 示例</button> </navigator>
 </view>

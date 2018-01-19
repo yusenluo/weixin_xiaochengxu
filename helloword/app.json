@@ -2,7 +2,12 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/basic/basic"
+    "pages/basic/basic",
+    "pages/icon/icon",
+    "pages/button/button",
+    "pages/input/input",
+    "pages/binding/binding",
+    "pages/audio/audio"
   ],
   "window": {
     "backgroundTextStyle": "light",

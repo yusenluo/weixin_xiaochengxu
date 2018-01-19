@@ -1,1 +1,21 @@
 /* pages/basic/basic.wxss */
+.flex-view{
+  width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.red{
+  background: #f00;
+}
+.green{
+  background: greenyellow;
+}
+.blue{
+  background: blueviolet
+}
+.border{
+  border: 10px dashed thistle;
+}
